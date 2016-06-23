@@ -14,6 +14,6 @@ if msg.to.type == 'channel' and not is_momod(msg) then
 end
 
 return {patterns = {
-    "#"
+    "#(.*)"
 }, run = run}
 
