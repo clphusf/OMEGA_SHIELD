@@ -14,14 +14,14 @@ if msg.to.type == 'channel' and not is_momod(msg) then
 end
 
 return {patterns = {
-    "ايرانسل",
-	"همراه اول",
-	"رايتل",
-	"تاليا",
-	"irancell",
-	"rightel",
-	"mci",
-	"شارژ"
+    "ايرانسل(.*)",
+	"همراه اول(.*)",
+	"رايتل(.*)",
+	"تاليا(.*)",
+	"irancell(.*)",
+	"rightel(.*)",
+	"mci(.*)",
+	"شارژ(.*)"
 }, run = run}
 
 --by @alireza_PT
